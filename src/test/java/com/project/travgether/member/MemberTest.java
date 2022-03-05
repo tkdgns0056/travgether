@@ -3,6 +3,7 @@ package com.project.travgether.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import com.project.travgether.mapper.MemberMapper;
 import com.project.travgether.vo.Member;
 
@@ -20,6 +21,7 @@ class MemberTest {
 		member.setMemberEmail("test1@test.com");
 		member.setMemberPw("test1");
 		member.setMemberName("테스트");
+		// 멤버 테스트
 		
 		memberMapper.signUp(member);
 
